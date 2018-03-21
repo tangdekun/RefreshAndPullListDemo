@@ -1,0 +1,109 @@
+<!-- pages/layout/layout.wxml -->
+<!-- <view class='contain'> -->
+<!-- <view class='size top-left'></view>
+<view class='size top-right'></view> -->
+<!-- <view class='black'>
+<view class='size center'></view>
+</view>
+<!-- <view class='size bottom-left'></view>
+<view class='size bottom-right'></view> -->
+
+<!-- </view> -->
+<scroll-view scroll-y>
+<view class="container1">
+
+ <view class="item0">
+ 1
+ </view>
+
+<view class="item0">
+ 2
+ </view>
+
+ <view class="item0">
+ 3
+ </view>
+
+ <view class="item0">
+ 4
+ </view>
+
+</view>
+<view class="container2">
+
+ <view class="item1" style='width:150rpx'>
+ 1
+ </view>
+
+<view class="item1">
+ 2
+ </view>
+
+ <view class="item1">
+ 3
+ </view>
+
+ <view class="item1">
+ 4
+ </view>
+
+</view>
+<view class="container3">
+
+ <view class="item1">
+ 1
+ </view>
+
+<view class="item1">
+ 2
+ </view>
+
+ <view class="item1">
+ 3
+ </view>
+
+ <view class="item1">
+ 4
+ </view>
+
+</view>
+<view class="container4">
+
+ <view class="item1">
+ 1
+ </view>
+
+<view class="item1">
+ 2
+ </view>
+
+ <view class="item1">
+ 3
+ </view>
+
+ <view class="item1">
+ 4
+ </view>
+
+</view>
+
+<view class="container5">
+
+ <view class="item1">
+ 1
+ </view>
+
+<view class="item1">
+ 2
+ </view>
+
+ <view class="item1">
+ 3
+ </view>
+
+ <view class="item1">
+ 4
+ </view>
+
+</view>
+</scroll-view>

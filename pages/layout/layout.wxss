@@ -1,0 +1,131 @@
+/* pages/layout/layout.wxss */
+
+/* .size {
+  width: 200rpx;
+  height: 200rpx;
+}
+
+.top-left {
+  background-color: red;
+}
+
+.top-right {
+  position: absolute;
+  background-color: yellow;
+  top: 0rpx;
+  right: 0rpx;
+}
+
+.bottom-left {
+  position: absolute;
+  background-color: orange;
+  bottom: 0rpx;
+  left: 0rpx;
+}
+
+.bottom-right {
+  background-color: blueviolet;
+  position: absolute;
+  bottom: 0rpx;
+  right: 0rpx;
+}
+
+.black {
+  width: 100%;
+  height: 200rpx;
+  background-color: aqua;
+}
+
+.center {
+  background-color: black;
+  flex: 1;
+}
+
+.contain {
+  width: 100vh;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  background-color: bisque;
+}
+
+.container1 {
+  height: 100%;
+  width: 100%;
+  background-color: beige;
+}
+*/
+
+.item0 {
+  height: 100rpx;
+  width: 300rpx;
+  background-color: cyan;
+  border: 1px solid #fff;
+}
+
+.item1 {
+  height: 100rpx;
+  width: 100rpx;
+  background-color: cyan;
+  border: 1px solid #fff;
+}
+
+/* 
+page {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}  */
+
+/* .container1 {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  background-color: cornsilk;
+  flex-wrap:wrap-reverse;
+} */
+
+.container1 {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  background-color: cornsilk;
+  flex-flow: row wrap;
+  justify-content:  space-around;
+}
+
+.container2 {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  background-color: antiquewhite;
+  justify-content: space-around;
+}
+
+.container3 {
+  height: 500rpx;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  background-color: aquamarine;
+  align-items: center;
+}
+
+.container4 {
+  height: 500rpx;
+  width: 100%;
+  display: flex;
+  flex-direction: column-reverse;
+  background-color: beige;
+}
+
+.container5 {
+  height: 500rpx;
+  width: 100%;
+  display: flex;
+  flex-direction: inherit;
+  background-color: beige;
+}

@@ -1,0 +1,46 @@
+/* pages/main/adicted/adicted.wxss  */
+
+.item-style {
+  padding: 20rpx;
+  text-align: center;
+  border-top: 2rpx solid #eee;
+}
+
+.refresh-block {
+  padding: 10rpx;
+  text-align: center;
+  height: 50rpx;
+}
+
+.load-block {
+  padding: 10rpx;
+  text-align: center;
+  height: 50rpx;
+}
+
+.refresh-block image {
+  width: 50rpx;
+  height: 50rpx;
+  margin-right: 40rpx；
+}
+
+.load-block  image {
+  width: 50rpx;
+  height: 50rpx;
+  margin-right: 40rpx；
+}
+
+.item-style-text {
+  text-align: center;
+  font-size: 40rpx;
+  color: blue;
+  width: 1080rpx;
+}
+
+.scroll-view-list {
+  margin-top: 100rpx;
+}
+
+.container {
+  padding: 0rpx;
+}
