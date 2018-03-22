@@ -1,0 +1,13 @@
+<!--pages/LinearLayout/LinearLayout.wxml-->
+
+<view class='contain'>
+<view class='second_parent'>
+  <view class='size top-left'></view>
+  <view class='size top-right'></view>
+  <view class='black'>
+    <view class='size center'></view>
+  </view>
+  <view class='size bottom-left'></view>
+  <view class='size bottom-right'></view>
+  </view>
+</view>

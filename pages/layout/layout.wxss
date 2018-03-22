@@ -58,7 +58,7 @@
 
 .item0 {
   height: 100rpx;
-  width: 300rpx;
+  width: 400rpx;
   background-color: cyan;
   border: 1px solid #fff;
 }
@@ -93,7 +93,8 @@ page {
   display: flex;
   background-color: cornsilk;
   flex-flow: row wrap;
-  justify-content:  space-around;
+  flex-wrap: nowrap;
+  /* justify-content:  space-around; */
 }
 
 .container2 {
@@ -109,9 +110,10 @@ page {
   height: 500rpx;
   width: 100%;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   background-color: aquamarine;
   align-items: center;
+  justify-content: center;
 }
 
 .container4 {
@@ -128,4 +130,13 @@ page {
   display: flex;
   flex-direction: inherit;
   background-color: beige;
+}
+
+.container6 {
+  height: 500rpx;
+  width: 400rpx;
+  display: flex;
+  flex-flow: column wrap;
+  background-color: blueviolet;
+  align-content: flex-start;
 }
