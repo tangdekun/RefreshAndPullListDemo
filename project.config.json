@@ -40,7 +40,20 @@
 				{
 					"id": -1,
 					"name": "LinearLayout",
-					"pathName": "pages/LinearLayout/LinearLayout"
+					"pathName": "pages/LinearLayout/LinearLayout",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "relative",
+					"pathName": "pages/relative/relative",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "flex",
+					"pathName": "pages/flex/flex",
+					"query": ""
 				}
 			]
 		}

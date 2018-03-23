@@ -1,5 +1,4 @@
-/* pages/LinearLayout/LinearLayout.wxss */
-
+/* pages/relative/relative.wxss */
 .size {
   width: 200rpx;
   height: 200rpx;
@@ -8,8 +7,8 @@
 .top-left {
   position: absolute;
   background-color: red;
-  top: 0rpx;
-  left: 0rpx;
+   top: 0rpx;
+  left: 0rpx; 
   margin-top: 50rpx;
   margin-left: 50rpx;
 }
@@ -19,15 +18,15 @@
   background-color: yellow;
   margin-top: 50rpx;
   margin-right: 50rpx;
-  top: 0rpx;
-  right: 0rpx;
+   top: 0rpx;
+  right: 0rpx; 
 }
 
 .bottom-left {
   position: absolute;
   background-color: orange;
-  bottom: 0rpx;
-  left: 0rpx;
+   bottom: 0rpx;
+  left: 0rpx; 
   margin-bottom: 50rpx;
   margin-left: 50rpx;
 }
@@ -37,18 +36,22 @@
   position: absolute;
   bottom: 0rpx;
   right: 0rpx;
-  margin-bottom: 50rpx;
-  margin-right: 50rpx;
-}
-
-.center {
-  background-color: black;
-  position: absolute;
-  bottom: 0rpx;
-  right: 0rpx;
   left: 0rpx;
   top: 0rpx;
   margin: auto;
+}
+
+.black {
+  /* width: 100%;
+  height: 200rpx;
+  background-color: aqua;
+  position: fixed; */
+}
+
+.center {
+   /* background-color: black;
+   flex: 1;
+   position: relative; */
 }
 
 .contain {
@@ -65,12 +68,12 @@
   background-color: beige;
 }
 
-.second_parent {
+.second_parent{
   position: absolute;
   height: 70vh;
   width: 70vw;
-  /* background-color: darkolivegreen; */
-  margin-top: 15vh;
+  background-color: darkolivegreen;
+  margin-top:15vh;
   margin-bottom: 15vh;
   margin-left: 15vw;
   margin-right: 15vw;
